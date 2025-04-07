@@ -1,0 +1,12 @@
+package com.luecardoso.ProjetoSpring.entities.pk;
+
+import jakarta.persistence.Embeddable;
+
+import java.io.Serializable;
+
+@Embeddable
+public class OrderItemPk implements Serializable {
+    private static final long serialVersionUID = 1L;
+
+    
+}
